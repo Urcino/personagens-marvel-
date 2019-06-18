@@ -1,0 +1,55 @@
+@font-face {
+    font-family:Dosis;
+    src: url('../fonts/Dosis-Bold.ttf');
+}
+@font-face {
+    font-family:Dosis-Regular;
+    src: url('../fonts/Dosis-Regular.ttf');
+}
+    
+
+body{
+  text-align:center;
+  margin: 0px;
+  font-family: Dosis-Regular;
+
+}
+#interacao{
+    background-color: black;;
+}
+
+h1,h2{
+    text-align: center;   
+    background-color: black;
+    color: white;
+    padding: 40px;
+    font-family: Dosis-Regular;
+}
+.k{
+    display: flex;
+    flex-direction: initial;
+      
+
+}
+
+ #p{
+    text-align: center;
+    background-color: rgba(243, 13, 13, 0.966);
+    
+ }
+
+ 
+#carouselExampleControls{
+    display: flex;
+    flex-direction: center;
+    text-align: center;
+
+ }
+footer{
+    text-align: center;
+     background-color: rgb(115, 127, 128);
+     overflow: auto;
+     color: white;
+     padding: 50px;
+}
+
